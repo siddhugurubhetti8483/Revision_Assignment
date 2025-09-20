@@ -16,8 +16,8 @@ public class DataDrivenStudentFormTests extends BaseTest{
     @DataProvider(name = "studentData")
     public Object[][] studentData(){
         return new Object[][]{
-            {"John", "Doe", "johan@gmail.com", "9857412589"},
-            {"Rohit", "Shah", "rohit@gmail.com", "9857412589"}
+            {"John", "Doe", "johan@gmail.com", "Male", "9857412589"},
+            {"Rohit", "Shah", "rohit@gmail.com", "Male", "9857412589"}
         };
     }
     
